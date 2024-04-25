@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am a graduate in Computer Science at Virginia Tech, 
+        I am a graduate student in Computer Science at Virginia Tech, 
         currently expanding my expertise across various innovative
         fields. With backgroud in Computer Vision, Machine Learning,
         and Computer Graphics, I have developed numerous projects that
