@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo_lai.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -20,11 +20,29 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import cpp from "./tech/cpp.png";
+import python from "./tech/python.png";
+import cmake from "./tech/cmake.png";
+import csharp from "./tech/csharp.png";
+import android from "./tech/android.png";
+import java from "./tech/java.png";
+import linux from "./tech/linux.png";
+import opencv from "./tech/opencv.png";
+import opengl from "./tech/opengl.png";
+import unity from "./tech/unity.png";
+import unreal from "./tech/unreal.png";
+import pytorch from "./tech/pytorch.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+
+import bingo from "./company/bingo.png";
+import construction from "./company/construction.png";
+import mesh from "./company/mesh.png";
+import news from "./company/news.png";
+import road from "./company/road.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -59,4 +77,21 @@ export {
   carrent,
   jobit,
   tripguide,
+  cpp,
+  python,
+  cmake,
+  csharp,
+  android,
+  java,
+  linux,
+  opencv,
+  opengl,
+  unity,
+  unreal,
+  pytorch,
+  bingo,
+  construction,
+  mesh,
+  news,
+  road,
 };

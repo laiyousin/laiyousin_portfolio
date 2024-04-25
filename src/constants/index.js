@@ -3,17 +3,8 @@ import {
   backend,
   creator,
   web,
-  javascript,
   typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
   git,
-  figma,
   docker,
   meta,
   starbucks,
@@ -22,7 +13,23 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
+  cpp,
+  python,
+  cmake,
+  csharp,
+  android,
+  java,
+  linux,
+  opencv,
+  opengl,
+  unity,
+  unreal,
+  pytorch,
+  bingo,
+  construction,
+  mesh,
+  news,
+  road,
 } from "../assets";
 
 export const navLinks = [
@@ -42,131 +49,144 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Computer Vision",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Computer Graphics",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Game Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "User Experience",
     icon: creator,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Python",
+    icon: python,
   },
   {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
+    name: "C++",
+    icon: cpp,
   },
   {
     name: "TypeScript",
     icon: typescript,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "C#",
+    icon: csharp,
+  },
+  // {
+  //   name: "Java",
+  //   icon: java,
+  // },
+  {
+    name: "OpenCV",
+    icon: opencv,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "OpenGL",
+    icon: opengl,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "PyTorch",
+    icon: pytorch,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
+    name: "Linux",
+    icon: linux,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "Unity",
+    icon: unity,
+  },
+  {
+    name: "Unreal",
+    icon: unreal,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Experimental Mobile News App for Identifying User Reading Patterns",
+    company_name: "Academic Project (Java, Android Studio)",
+    icon: news,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Feb 2020 - Sep 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Engineered an experimental news app with integrated functionality for tracking user reading habits, such as article reading duration, scrolling speed, and phone battery level, capturing over 1000 instances of detailed user data.",
+      "Utilized multiple Android APIs, including motion, environment detection, and audio management, to accurately determine user status during app usage.",
+      "Analyzed comprehensive mobile data combined with user survey responses, employing cluster analysis to categorize reading patterns into four distinct types, enhancing understanding of user engagement by 40%.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Digital Mesh Editor",
+    company_name: "Academic Project (C++, OpenGL, OpenMesh, Windows Forms)",
+    icon: mesh,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Sep 2021 - Jan 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Established a 3D model editor with capabilities for skeleton extraction and image-based texture mapping.",
+      "Implemented OpenMesh as the model’s data structure to contract mesh and parameterize rectangular images as skin.",
+      "Accelerated the rendering process of the 3D model using OpenGL.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Online Carnaval Bingo",
+    company_name: "Partner Software Engineer with International Games System Co., Ltd. (Typescript, Cocos Creator)",
+    icon: bingo,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Apr 2022 - Jun 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "nhanced the game’s framework extensibility by streamlining the game flow and modularizing game states with a Finite State Machine, leading to a 30% improvement in development efficiency",
+      "Applied delegate pattern to refactor the relationship between game state and components, reducing coupling and enhancing code cleanliness, resulting in a 25% increase in scalability and maintainability for the game series.",
+      "Implemented new game features and refined existing functionalities, including visual effects and roulette mechanics.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Construction Site Attendance System",
+    company_name: "Pieceworker (Python, OpenCV, Pytorch)",
+    icon: construction,
+    iconBg: "#383E56",
+    date: "Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implemented Object Recognition technology for PPE (Personal protective equipment) compliance, reducing construction site safety issues by 40%.",
+      "Engineered an automated attendance system with Facial Recognition, yielding a 60% efficiency improvement.",
+      "Created a user interface linked to webcams, displaying recognized worker names and correct PPE usage; automated attendance logging when both criteria are met.",
     ],
   },
+  {
+    title: "Advanced 3D Road Reconstruction and Virtual Navigation System",
+    company_name: "Academic Thesis (Python, OpenCV, Pytorch)",
+    icon: road,
+    iconBg: "#E6DEDD",
+    date: "Jul 2022 - Jul 2023",
+    points: [
+      "Engineered a 3D road model using sequence panoramic images, resulting in a 25% increase in model accuracy and realism, and culminating in a user-friendly virtual environment with improved fidelity and reduced unrealistic object interference.",
+      "Constructed a virtual navigation system on Unreal Engine, addressing fragmentation in conventional 3D reconstruction.",
+      "Implemented Object Detection and Object Tracking to isolate and remove obstructive objects, which led to a 20% improvement in scene clarity.",
+      "Utilized algorithmic to select ten same-site images, identifying the least obstructed views for optimal scene reconstruction.",
+      "Applied Image Registration, Stitching, and Color Consistency techniques to seamlessly integrate selected patches, achieving a 30% improvement in visual continuity."
+    ],
+  },
+  
+  
+  
 ];
 
 const testimonials = [
