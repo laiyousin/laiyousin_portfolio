@@ -108,14 +108,6 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "OpenCV",
-    icon: opencv,
-  },
-  {
-    name: "OpenGL",
-    icon: opengl,
-  },
-  {
     name: "PyTorch",
     icon: pytorch,
   },
