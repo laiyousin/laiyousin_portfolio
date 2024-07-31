@@ -30,6 +30,14 @@ import {
   mesh,
   news,
   road,
+  tailwind,
+  reactjs,
+  mysql,
+  html,
+  css,
+  flask,
+  chat,
+  tradingvalley,
 } from "../assets";
 
 export const navLinks = [
@@ -49,20 +57,20 @@ export const navLinks = [
 
 const services = [
   {
+    title: "Frontend",
+    icon: backend,
+  },
+  {
+    title: "Backend",
+    icon: creator,
+  },
+  {
     title: "Computer Vision",
     icon: web,
   },
   {
     title: "Computer Graphics",
     icon: mobile,
-  },
-  {
-    title: "Game Developer",
-    icon: backend,
-  },
-  {
-    title: "User Experience",
-    icon: creator,
   },
 ];
 
@@ -80,13 +88,25 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "C#",
-    icon: csharp,
+    name: "MySQL",
+    icon: mysql,
   },
-  // {
-  //   name: "Java",
-  //   icon: java,
-  // },
+  {
+    name: "HTML",
+    icon: html,
+  },
+  {
+    name: "Flask",
+    icon: flask,
+  },
+  {
+    name: "React",
+    icon: reactjs,
+  },
+  {
+    name: "Tailwind",
+    icon: tailwind,
+  },
   {
     name: "OpenCV",
     icon: opencv,
@@ -111,39 +131,48 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
-  {
-    name: "Unity",
-    icon: unity,
-  },
-  {
-    name: "Unreal",
-    icon: unreal,
-  },
 ];
 
 const experiences = [
   {
-    title: "Experimental Mobile News App for Identifying User Reading Patterns",
-    company_name: "Academic Project (Java, Android Studio)",
-    icon: news,
-    iconBg: "#383E56",
-    date: "Feb 2020 - Sep 2021",
+    title: "FullStack Software Engineer intern",
+    company_name: "TradingValley",
+    icon: tradingvalley,
+    iconBg: "#E6DEDD",
+    date: "May 2024 - Aug 2024",
     points: [
-      "Engineered an experimental news app with integrated functionality for tracking user reading habits, such as article reading duration, scrolling speed, and phone battery level, capturing over 1000 instances of detailed user data.",
-      "Utilized multiple Android APIs, including motion, environment detection, and audio management, to accurately determine user status during app usage.",
-      "Analyzed comprehensive mobile data combined with user survey responses, employing cluster analysis to categorize reading patterns into four distinct types, enhancing understanding of user engagement by 40%.",
+      "Designed and implemented RESTful APIs using Flask to support a marketing data dashboard, managing MySQL databases with SQLAlchemy and utilizing Pinject for dependency injection.",
+      "Developed dynamic web interfaces with the Remix framework, integrating Ant Design components like tables, charts, and search boxes for effective data presentation and user-specific data retrieval.",
+      "Created a block editor CMS for managing blog articles using EditorJS, implementing custom functionalities such as customizable text colors and markers based on requirements.",
+      "Built a React parser to transform EditorJS-stored JSON data into React components, allowing flexible usage on the front-end pages and ensuring seamless content rendering.",
+      "Enhanced application performance and scalability, optimizing database queries, implementing pagination for efficient data retrieval, and ensuring real-time updates and insightful data visualizations for marketing performance analysis with Axios.",
     ],
   },
   {
-    title: "Digital Mesh Editor",
-    company_name: "Academic Project (C++, OpenGL, OpenMesh, Windows Forms)",
-    icon: mesh,
+    title: "Coding Support Chatbot",
+    company_name: "Academic Project (Python, Streamlit)",
+    icon: chat,
     iconBg: "#E6DEDD",
-    date: "Sep 2021 - Jan 2022",
+    date: "Feb 2024 - May 2024",
     points: [
-      "Established a 3D model editor with capabilities for skeleton extraction and image-based texture mapping.",
-      "Implemented OpenMesh as the model’s data structure to contract mesh and parameterize rectangular images as skin.",
-      "Accelerated the rendering process of the 3D model using OpenGL.",
+      "Developed a coding support chatbot using Streamlit and OpenAI API to provide software-related background knowledge, error identification, and code refactoring.",
+      "Implemented RESTful API integration for seamless communication between the chatbot and backend services.",
+      "Created unit tests to ensure functionality and reliability of specific features within the chatbot application."
+    ],
+  },
+  
+  {
+    title: "Advanced 3D Road Reconstruction and Virtual Navigation System",
+    company_name: "Academic Thesis (Python, OpenCV, Pytorch)",
+    icon: road,
+    iconBg: "#E6DEDD",
+    date: "Jul 2022 - Jul 2023",
+    points: [
+      "Engineered a 3D road model using sequence panoramic images, resulting in a 25% increase in model accuracy and realism, and culminating in a user-friendly virtual environment with improved fidelity and reduced unrealistic object interference.",
+      "Constructed a virtual navigation system on Unreal Engine, addressing fragmentation in conventional 3D reconstruction.",
+      "Implemented Object Detection and Object Tracking to isolate and remove obstructive objects, which led to a 20% improvement in scene clarity.",
+      "Utilized algorithmic to select ten same-site images, identifying the least obstructed views for optimal scene reconstruction.",
+      "Applied Image Registration, Stitching, and Color Consistency techniques to seamlessly integrate selected patches, achieving a 30% improvement in visual continuity."
     ],
   },
   {
@@ -171,22 +200,29 @@ const experiences = [
     ],
   },
   {
-    title: "Advanced 3D Road Reconstruction and Virtual Navigation System",
-    company_name: "Academic Thesis (Python, OpenCV, Pytorch)",
-    icon: road,
+    title: "Digital Mesh Editor",
+    company_name: "Academic Project (C++, OpenGL, OpenMesh, Windows Forms)",
+    icon: mesh,
     iconBg: "#E6DEDD",
-    date: "Jul 2022 - Jul 2023",
+    date: "Sep 2021 - Jan 2022",
     points: [
-      "Engineered a 3D road model using sequence panoramic images, resulting in a 25% increase in model accuracy and realism, and culminating in a user-friendly virtual environment with improved fidelity and reduced unrealistic object interference.",
-      "Constructed a virtual navigation system on Unreal Engine, addressing fragmentation in conventional 3D reconstruction.",
-      "Implemented Object Detection and Object Tracking to isolate and remove obstructive objects, which led to a 20% improvement in scene clarity.",
-      "Utilized algorithmic to select ten same-site images, identifying the least obstructed views for optimal scene reconstruction.",
-      "Applied Image Registration, Stitching, and Color Consistency techniques to seamlessly integrate selected patches, achieving a 30% improvement in visual continuity."
+      "Established a 3D model editor with capabilities for skeleton extraction and image-based texture mapping.",
+      "Implemented OpenMesh as the model’s data structure to contract mesh and parameterize rectangular images as skin.",
+      "Accelerated the rendering process of the 3D model using OpenGL.",
     ],
   },
-  
-  
-  
+  {
+    title: "Experimental Mobile News App for Identifying User Reading Patterns",
+    company_name: "Academic Project (Java, Android Studio)",
+    icon: news,
+    iconBg: "#383E56",
+    date: "Feb 2020 - Sep 2021",
+    points: [
+      "Engineered an experimental news app with integrated functionality for tracking user reading habits, such as article reading duration, scrolling speed, and phone battery level, capturing over 1000 instances of detailed user data.",
+      "Utilized multiple Android APIs, including motion, environment detection, and audio management, to accurately determine user status during app usage.",
+      "Analyzed comprehensive mobile data combined with user survey responses, employing cluster analysis to categorize reading patterns into four distinct types, enhancing understanding of user engagement by 40%.",
+    ],
+  },
 ];
 
 const testimonials = [

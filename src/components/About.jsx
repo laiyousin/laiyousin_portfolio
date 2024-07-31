@@ -48,13 +48,15 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         I am a graduate student in Computer Science at Virginia Tech, 
-        currently expanding my expertise across various innovative
-        fields. With backgroud in Computer Vision, Machine Learning,
-        and Computer Graphics, I have developed numerous projects that
-        harness these technologies. Additionally, I have explored Game
-        Development and User Experience, continuously seeking to broaden
-        my knowledge and apply it in new and exiciting domains.
-        Next, allow me to showcase my projects!
+        specializing in FullStack Development. With a strong foundation 
+        in building robust backend systems and dynamic frontend interfaces, 
+        I have a comprehensive understanding of the full technology stack. 
+        My experience extends beyond web development, as I have also delved 
+        into the fields of Computer Vision and Graphics, showcasing my versatility 
+        and adaptability in various technical domains. My journey in these areas 
+        reflects a continuous passion for learning and exploring new technologies. 
+        I invite you to explore my projects to see the range of innovative solutions 
+        I've developed!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

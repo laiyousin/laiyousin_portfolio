@@ -32,11 +32,15 @@ import opengl from "./tech/opengl.png";
 import unity from "./tech/unity.png";
 import unreal from "./tech/unreal.png";
 import pytorch from "./tech/pytorch.png";
+import mysql from "./tech/MySQL.png";
+import flask from "./tech/flask.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import tradingvalley from "./company/tradingvalley.png";
+import chat from "./company/chat.png";
 
 import bingo from "./company/bingo.png";
 import construction from "./company/construction.png";
@@ -94,4 +98,8 @@ export {
   mesh,
   news,
   road,
+  mysql,
+  flask,
+  tradingvalley,
+  chat,
 };
